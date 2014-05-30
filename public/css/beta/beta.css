@@ -72,3 +72,50 @@ div.footer-container {
   width: 30%;
   height: 100%;
   background-color: cyan; }
+
+table {
+  border: 0;
+  margin: 5px auto;
+  background-color: #5993d9;
+  padding: 20px 10%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px; }
+  table tr {
+    width: 100%;
+    padding: 5px;
+    height: 70px;
+    margin: 5px; }
+    table tr td {
+      width: 30%;
+      padding: 5px;
+      margin: 5px;
+      background-color: #ccc;
+      -webkit-border-radius: 90px;
+      -moz-border-radius: 90px;
+      -ms-border-radius: 90px;
+      border-radius: 90px;
+      text-align: center;
+      vertical-align: center;
+      color: black; }
+      table tr td:hover {
+        background-color: gray; }
+
+td.call {
+  background-color: green; }
+
+td.call:hover {
+  background-color: #00cc00; }
+
+td.cancel {
+  background-color: red; }
+
+td.cancel:hover {
+  background-color: #ff4d4d; }
+
+input.numberInput {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px; }

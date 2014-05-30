@@ -1,0 +1,45 @@
+table {
+	border:0;
+	margin:5px auto;
+	background-color:lighten(hsl(213, 63%, 50%), 10%);
+	padding:20px 10%;
+	@include border-radius(20px);
+	tr{
+	width:100%;
+	padding:5px;
+	height:70px;
+	margin:5px;
+		td{
+		width:30%;
+		padding:5px;
+		margin:5px;
+		background-color:#ccc;
+		@include border-radius(90px);
+		text-align:center;
+		vertical-align:center;
+		color:black;
+			&:hover{
+				background-color:darken(#ccc, 30%);
+			}
+		}
+	}
+}
+
+td.call{
+background-color:green;
+}
+td.call:hover{
+background-color:lighten(green, 15%);
+}
+	
+
+td.cancel{
+background-color:red;
+}
+td.cancel:hover{
+background-color:lighten(red, 15%);
+}
+
+input.numberInput{
+	@include border-radius(20px);
+}

@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Calculator</title>
+        <title>Dialer</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,7 +22,7 @@
 
         <div class="header-container">
             <header class="wrapper clearfix">
-                <h1 class="title">CA Aria Exam - Calculator</h1>
+                <h1 class="title">Aria CA Exam - Dialer</h1>
                 <nav>
                     <ul>
                         <li><a href="index.html">About</a></li>
@@ -56,25 +56,56 @@
                 </article>
 
                 <aside>
-                    <h3>Calculator</h3>
-                    <!-- Calculator -->
-				<section id="hero">
-					<p>Simple Calculation! Please enter two numbers, or press arrows up and down.</p>
-					<p>
-						<input type="number" id="firstnumber"/>					
-						<input type="number" id="secondnumber"/>
-					</p>
-				
-					<p id="result">Result will display here!</p>
-				 
-					<p>
-						<button class="button" id="add" type="button">+</button>
-						<button class="button" id="minus" type="button">-</button>
-						<button class="button" id="mul" type="button">*</button>
-						<button class="button" id="divide" type="button">/</button>
-						<button class="button" id="clearinput" type="button">C</button>
-					</p>
-				</section>	
+                    <h3>Mobile Dial Pad</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="3">Enter a 10 digit number</th>
+                                
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                &nbsp;
+                            </tr>
+                            <tr>
+                                <td colspan="3"><input class="numberInput" /></td>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            <tr>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td class="call"><small>call</small></td>
+                                <td>0</td>
+                                <td class="cancel"><small>clear</small></td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+
+
+
+                    <h3>Converter</h3>
+                   <p>Insert a number into one of the input fields below:</p>
+					<input id="c" onkeyup="convert('C')"> degrees Celsius<br/>
+					<small>converts to</small><br/> 
+					<input id="f" onkeyup="convert('F')"> degrees Fahrenheit<br/>
+					rounded up</p>
+
                 </aside>
 
             </div> <!-- #main -->
@@ -84,18 +115,19 @@
             <footer class="wrapper">
                 <h3>footer</h3>
                 <p>
-					<a href="#" id="default" title="javascript switch anchor Default">Default Styles</a>
+					<a href="#" id="default" title="javascript switch anchor default">Default Styles</a>
 					<a href="#" id="other" title="javascript switch anchor alternate">Other Styles</a>
 				</p>
             </footer>
         </div>
+        
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
         <script src="js/plugins.js"></script>
         <script src="js/switcher.js"></script>
-        <script src="js/calculator.js"></script>
+        <script src="js/converter.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
    

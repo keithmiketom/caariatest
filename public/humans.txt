@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Keith Michael Gregg-- Designer, Developer, Technician, Tester -- @keithmiketom
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, JavaScript, 
+    jQuery, Modernizr
+    Jasmine - Bhhaviour Driven JavaScript Testing Framework

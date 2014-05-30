@@ -4,3 +4,4 @@ gem 'vienna'
 
 gem 'rack'
 
+gem 'jquery-rails'

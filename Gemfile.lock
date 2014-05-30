@@ -7,8 +7,6 @@ GEM
       rails_stdout_logging
     rails_serve_static_assets (0.0.2)
     rails_stdout_logging (0.0.3)
-    vienna (0.4.0)
-      rack (~> 1.5)
 
 PLATFORMS
   ruby
@@ -16,4 +14,3 @@ PLATFORMS
 DEPENDENCIES
   rack
   rails_12factor
-  vienna

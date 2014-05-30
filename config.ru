@@ -1,6 +1,3 @@
-
-
-
 use Rack::Static,
   :urls => ["/images", "/js", "/css", "/test", "dialer.html", "calculator.html"],
   :root => "public"

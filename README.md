@@ -8,4 +8,15 @@ Technologies
 + Sass
 + Jasmine
 + jQuery
-+ Lettering.js
+
+
+Contains
+=========
++ Calculator
++ Coverter
++ Jukebox
++ StyleSwitcher
+
+Deployment
+===========
++ Pushed to

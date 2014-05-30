@@ -1,2 +1,3 @@
 require 'vienna'
-run vienna
+run Vienna
+

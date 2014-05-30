@@ -1,3 +1,7 @@
+require 'vienna'
+run Vienna
+
+
 use Rack::Static,
   :urls => ["/images", "/js", "/css"],
   :root => "public"
@@ -9,6 +13,6 @@ run lambda { |env|
       'Content-Type'  => 'text/html',
       'Cache-Control' => 'public, max-age=86400'
     },
-    File.open('public/index.html', 'public/calculator.html', 'public/dialer.html' File::RDONLY)
+    File.open('public/index.html' File::RDONLY)
   ]
 }

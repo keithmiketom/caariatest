@@ -313,7 +313,7 @@ nav a:hover {
   h2,
   h3 {
     page-break-after: avoid; } }
-#default, #other {
+#default, #other, #meow {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
@@ -325,7 +325,7 @@ nav a:hover {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
-  #default:hover, #other:hover {
+  #default:hover, #other:hover, #meow:hover {
     background-color: #1c487d; }
 
 .playerplayer {

@@ -4,4 +4,5 @@ gem 'vienna'
 
 gem 'rack'
 
-gem 'jquery-rails'
+
+gem "rails_12factor"
